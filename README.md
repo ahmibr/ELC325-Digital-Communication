@@ -206,7 +206,7 @@ Each model is available in its folder (i.e. BPSK model can be found at BPSK/BPSK
 
 * The following diagram is main blocks after adding cosine transmitter and reciever
 
-![Model](/QAM-16/QAM16Cosine.JPG)
+![Model](/QAM-16/QAMCosine-16.JPG)
 
 * After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
 
@@ -256,7 +256,7 @@ Each model is available in its folder (i.e. BPSK model can be found at BPSK/BPSK
 
 * The following diagram is main blocks after adding cosine transmitter and reciever
 
-![Model](/QAM-64/QAM64Cosine.JPG)
+![Model](/QAM-64/QAMCosine-64.JPG)
 
 * After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
 
