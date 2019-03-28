@@ -8,6 +8,8 @@ Digital Communications Matlab Simulink Project.
 
 *The following simulation is done using MATLAB R2016a Simulink, some results may differ if rerun in another version*
 
+Each model is available in its folder (i.e. BPSK model can be found at BPSK/BPSK.slx)
+
 ---
 
 
