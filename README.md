@@ -152,7 +152,7 @@ Digital Communications Matlab Simulink Project.
 
 * Then update **random integer generator** to the following settings
 
-![Rand](/QAM-64/QAM16-Rand.JPG)
+![Rand](/QAM-64/QAM64-Rand.JPG)
 
 * After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
 
