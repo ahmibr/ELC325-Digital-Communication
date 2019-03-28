@@ -43,17 +43,133 @@ Digital Communications Matlab Simulink Project.
 ## QPSK
 > Quadrature Phase Shift Keying (QPSK) is a form of Phase Shift Keying in which two bits are modulated at once, selecting one of four possible carrier phase shifts (0, 90, 180, or 270 degrees). QPSK allows the signal to carry twice as much information as ordinary PSK using the same bandwidth. QPSK is used for satellite transmission of MPEG2 video, cable modems, videoconferencing, cellular phone systems, and other forms of digital communication over an RF carrier.
 
+* The following diagram is main blocks to reproduce the results
+
+![Model](/QPSK/QPSK.JPG)
+
+* Then update **random integer generator** to the following settings
+
+![Rand](/QPSK/QPSK-Rand.JPG)
+
+* After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
+
+![Before](/QPSK/QPSK-Before.JPG)   ![After](/QPSK/QPSK-After.JPG)
+
+* Start **bit error analysis** by calling **bertool** from ***Matlab***
+
+* Modify settings to the following
+
+![BER](/QPSK/QPSK-bertool.JPG)
+
+* Press plot
+
+* Modify settings to pick the model file (as done in BPSK modulation)
+
+* After plotting the graph by pressing run, the following results will appear
+
+![BEROut](/QPSK/QPSK-BER.JPG)
 
 
 ## FSK
 > Frequency Shift Keying (FSK) is the digital modulation technique in which the frequency of the carrier signal varies according to the digital signal changes. FSK is a scheme of frequency modulation.
 
+* The following diagram is main blocks to reproduce the results
+
+![Model](/FSK/FSK-2.JPG)
+
+* Update modulator and demodulator to the following settings
+
+![Modulator](/FSK/FSK.JPG)
+
+* Then update **random integer generator** to the following settings
+
+![Rand](/FSK/FSK-Rand.JPG)
+
+* After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
+
+![Before](/FSK/FSK-Before.JPG)   ![After](/FSK/FSK-After.JPG)
+
+* Start **bit error analysis** by calling **bertool** from ***Matlab***
+
+* Modify settings to the following
+
+![BER](/FSK/FSK-bertool.JPG)
+
+* Press plot
+
+* Modify settings to pick the model file (as done in BPSK modulation)
+
+* After plotting the graph by pressing run, the following results will appear
+
+![BEROut](/FSK/FSK-BER.JPG)
 
 ## QAM
 > QAM (quadrature amplitude modulation) is a method of combining two amplitude-modulated (AM) signals into a single channel, thereby doubling the effective bandwidth.
 
 ### QAM 16
 
+* The following diagram is main blocks to reproduce the results
+
+![Model](/QAM-16/QAM-16.JPG)
+
+* Update modulator and demodulator to the following settings
+
+![Modulator](/QAM-16/QAM16.JPG)
+
+* Then update **random integer generator** to the following settings
+
+![Rand](/QAM-16/QAM16-Rand.JPG)
+
+* After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
+
+![Before](/QAM-16/QAM16-Before.JPG)   ![After](/QAM-16/QAM16-After.JPG)
+
+* Start **bit error analysis** by calling **bertool** from ***Matlab***
+
+* Modify settings to the following
+
+![BER](/QAM-16/QAM16-bertool.JPG)
+
+* Press plot
+
+* Modify settings to pick the model file (as done in BPSK modulation)
+
+* After plotting the graph by pressing run, the following results will appear
+
+![BEROut](/QAM-16/QAM16-BER.JPG)
+
 
 
 ### QAM 64
+
+* The following diagram is main blocks to reproduce the results
+
+![Model](/QAM-64/QAM-64.JPG)
+
+* Update modulator and demodulator to the following settings
+
+![Modulator](/QAM-64/QAM64.JPG)
+
+* Then update **random integer generator** to the following settings
+
+![Rand](/QAM-64/QAM16-Rand.JPG)
+
+* After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
+
+![Before](/QAM-64/QAM64-Before.JPG)   ![After](/QAM-64/QAM64-After.JPG)
+
+* Start **bit error analysis** by calling **bertool** from ***Matlab***
+
+* Modify settings to the following
+
+![BER](/QAM-64/QAM64-bertool.JPG)
+
+* Press plot
+
+* Modify settings to pick the model file (as done in BPSK modulation)
+
+* After plotting the graph by pressing run, the following results will appear
+
+![BEROut](/QAM-64/QAM64-BER.JPG)
+
+
