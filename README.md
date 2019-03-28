@@ -22,9 +22,7 @@ Binary Phase Shift Keying (BPSK) is a two phase modulation scheme, where the 0â€
 
 * After starting simulation, to following figures **(which shows signal before and after noise)** will appear.
 
-![Before](/BPSK/BPSK-Before.JPG)
-
-![After](/BPSK/BPSK-After.JPG)
+![Before](/BPSK/BPSK-Before.JPG) ![After](/BPSK/BPSK-After.JPG)
 
 * Start **bit error analysis** by calling **bertool** from ***Matlab***
 
@@ -32,7 +30,7 @@ Binary Phase Shift Keying (BPSK) is a two phase modulation scheme, where the 0â€
 
 ![BER](/BPSK/BPSK-bertool.JPG)
 
-* Plot the theoritical graph
+* Press plot
 
 * Modify following settings
 
