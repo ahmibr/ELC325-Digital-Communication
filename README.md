@@ -6,6 +6,10 @@ Digital Communications Matlab Simulink Project.
 ***Section:*** 01
 ***BN:*** 02
 
+
+
+
+
 *The following simulation is done using MATLAB R2016a Simulink, some results may differ if rerun in another version*
 
 Each model is available in its folder (i.e. BPSK model can be found at BPSK/BPSK.slx)
@@ -44,6 +48,21 @@ Each model is available in its folder (i.e. BPSK model can be found at BPSK/BPSK
 
 ![BEROut](/BPSK/BPSK-BER.JPG)
 
+
+### Raised-Cosine
+
+* The following diagram is main blocks after adding cosine transmitter and reciever
+
+![Model](/BPSK/BPSKCosine.JPG)
+
+* After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
+
+![Before](/BPSK/BPSKCosine-Before.JPG)   ![After](/BPSK/BPSKCosine-After.JPG)
+
+* After plotting the graph by pressing run, the following results will appear
+
+![BEROut](/BPSK/BPSKCosine-BER.JPG)
+
 ---
 
 
@@ -75,6 +94,22 @@ Each model is available in its folder (i.e. BPSK model can be found at BPSK/BPSK
 * After plotting the graph by pressing run, the following results will appear
 
 ![BEROut](/QPSK/QPSK-BER.JPG)
+
+
+### Raised-Cosine
+
+* The following diagram is main blocks after adding cosine transmitter and reciever
+
+![Model](/QPSK/QPSKCosine.JPG)
+
+* After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
+
+![Before](/QPSK/QPSKCosine-Before.JPG)   ![After](/QPSK/QPSKCosine-After.JPG)
+
+* After plotting the graph by pressing run, the following results will appear
+
+![BEROut](/QPSK/QPSKCosine-BER.JPG)
+
 
 ---
 
@@ -111,6 +146,22 @@ Each model is available in its folder (i.e. BPSK model can be found at BPSK/BPSK
 * After plotting the graph by pressing run, the following results will appear
 
 ![BEROut](/FSK/FSK-BER.JPG)
+
+
+### Raised-Cosine
+
+* The following diagram is main blocks after adding cosine transmitter and reciever
+
+![Model](/FSK/FSKCosine.JPG)
+
+* After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
+
+![Before](/FSK/FSKCosine-Before.JPG)   ![After](/FSK/FSKCosine-After.JPG)
+
+* After plotting the graph by pressing run, the following results will appear
+
+![BEROut](/FSK/FSKCosine-BER.JPG)
+
 
 ---
 
@@ -151,6 +202,20 @@ Each model is available in its folder (i.e. BPSK model can be found at BPSK/BPSK
 ![BEROut](/QAM-16/QAM16-BER.JPG)
 
 
+### Raised-Cosine
+
+* The following diagram is main blocks after adding cosine transmitter and reciever
+
+![Model](/QAM-16/QAM16Cosine.JPG)
+
+* After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
+
+![Before](/QAM-16/QAM16Cosine-Before.JPG)   ![After](/QAM-16/QAM16Cosine-After.JPG)
+
+* After plotting the graph by pressing run, the following results will appear
+
+![BEROut](/QAM-16/QAM16Cosine-BER.JPG)
+
 
 ### QAM 64
 
@@ -183,5 +248,22 @@ Each model is available in its folder (i.e. BPSK model can be found at BPSK/BPSK
 * After plotting the graph by pressing run, the following results will appear
 
 ![BEROut](/QAM-64/QAM64-BER.JPG)
+
+
+
+
+### Raised-Cosine
+
+* The following diagram is main blocks after adding cosine transmitter and reciever
+
+![Model](/QAM-64/QAM64Cosine.JPG)
+
+* After starting simulation, the following figures **(which shows signal before and after noise)** will appear.
+
+![Before](/QAM-64/QAM64Cosine-Before.JPG)   ![After](/QAM-64/QAM64Cosine-After.JPG)
+
+* After plotting the graph by pressing run, the following results will appear
+
+![BEROut](/QAM-64/QAM64Cosine-BER.JPG)
 
 
